@@ -1,0 +1,1 @@
+Instalarla y podremos utilizar el snippet frf --> si copiamos y pegamos no lo utilizaremos, pero es de utilidad cuando quiera crear un freezed automáticamente (es igual que el flscreen y demás).

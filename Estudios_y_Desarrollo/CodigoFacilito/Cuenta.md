@@ -1,0 +1,15 @@
+[codigofacilito.com](https://iecgcae.r.af.d.sendibt2.com/tr/cl/BAGW8j9Jk2Tbt8sem6cT7OfkGbw_e8ld665UDdEW8xUkp_a_RVZIY0uTTVfnTMmCp8sDyKUIW-E47_2O_3tqsz24Ripk1gc7VDYSzfBwEEmbYV-OTYs5t5h1_AKPMA6YP2jB83Na630MFgb7bZ21VfN5jAgmhlo26yY5VF7EfPkjvmOlBhXSl-l07KbPzGnX_bX-eOR6EAKqZYBlBvjXU4Ws0en_K3-lHIHS9fuUZnuYh_YVxDmBSpUjTDf4IlqxsTPI_QEK5Q)
+
+  
+
+correo
+
+ismael.perez.moron@gmail.com
+
+user
+
+Ismael
+
+pass
+
+C_facilito_ñ2025

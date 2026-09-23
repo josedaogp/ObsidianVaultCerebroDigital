@@ -1,0 +1,2 @@
+- Algo parecido al analizador de CVs, pero que analice oportunidades de inversión inmobiliaria, dada una propiedad.
+- 

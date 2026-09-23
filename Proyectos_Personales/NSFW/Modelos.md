@@ -1,0 +1,1 @@
+- [ ] https://civitai.com/models/662112/gguf-flux-unchained (Sin probar)

@@ -1,0 +1,6 @@
+- **Precio**: 124.98 €
+- **Fecha**: Del 18 al 25 julio
+- **Horario**: Vuelta a las 19.05
+- Ryaner
+- **Aeropuerto**: Sevilla - Milán Malpensa
+- **Maleta grande aparte**: pilar

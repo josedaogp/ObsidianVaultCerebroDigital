@@ -1,0 +1,111 @@
+## Resumen de la aplicación
+Hola, voy a hacer una aplicación de escritorio para una cooperativa olivarera. El propósito de esta aplicación es gestionar la información de cada temporada olivarera. El flujo es el siguiente: El socio va a la cooperativa, suelta la aceituna, y se pesa. Entonces la cooperativa tiene que hacer un albarán que refleje que el agricultor ha dejado x KG de aceituna de x tipo. Luego, la cooperativa puede hacerle un anticipo de dinero teniendo en cuenta la premisa anterior.  En ese momento, la cooerativa no conoce aún el precio al que se le pagará al agricultor la aceituna/kg, por lo que símplemente el gestor de la cooperativa hace una predicción y luego en la liquidación se cobrará el resto o se le pedirá que devuelva. Después, una vez la cooperativa sepa el precio por kg al que puede pagar la aceituna a los socios, se les hace la liquidación. Actualmente tienen ya una aplicación pero que no termina de funcionar bien. Necesitan poder imprimir en el momento los albaranes, liquidaciones y que haga las facturas. Actualmente tienen ya una aplicación pero que no termina de funcionar bien. Está hecha con Microsoft Access. Yo voy a hacer la aplicación con PyQT5, con la BBDD en postgresql en un docker, así pueden usar el programa aunque no tenga internet.
+
+Quiero empezar por definir bien la base de datos y las pantallas que voy a tener que hacer. Podemos basarnos en la bbdd que utilizan en la aplicación actual, teniendo en cuenta que no es perfecta y que tenemos total libertad para modificarla para mejorarla.:
+## Tecnologías a utilizar:
+- Microsoft Access: De pago para utilizarlo. Viejo, rudimentario, simple.
+- Python
+	- Tkinter: Demasiado básico pero una opción
+	- PyQT5: Algo más moderno y con herramienta de diseño
+- PostgreSQL como base de datos
+- Docker para tener la bbdd en local
+## BBDD
+PostgreSQL.
+El programa actual que usan tiene estas tablas:
+- Albaran
+	- idalbaran
+	- idtemporada
+	- idsocio
+	- idanticipo
+	- numeroalbaran
+	- fechaalbaran
+	- tpcIVA
+	- baseimponible
+	- cuotaIVA
+	- Subtotal
+	- totalAlbaran
+	- Observacion
+	- Bruto
+	- Tara
+	- Seleccionado
+- Anticipo
+	- idanticipo
+	- titemporada
+	- idsocio
+	- numeroanticipo
+	- fechaanticipo
+	- concepto
+	- baseimponible
+	- iva
+	- compensacion
+	- totalfactura
+	- retencionirpf (en porcentaje)
+	- retenido
+	- importe
+	- cheque numerico
+	
+- APTd
+	- id
+	- cronos
+	- puntero albaran
+	- puntero anticipo
+	- puntero socio
+	- putnero banco
+	- puntero TA
+- Banco
+	- idBanco
+	- nCodigo
+	- Banco
+	- Telefono1
+	- Telefono2
+	- Fax
+	- Direccion
+	- Notas
+- Cliente
+	- idCliente
+	- idLocalidad
+	- idBanco
+	- NumerodeCliente
+	- CodigoPostal
+	- Baja (booleano)
+	- DNI
+	- NombreCliente
+	- Direccion
+	- Telefono1
+	- Telefono2
+	- Fax
+	- Movil
+	- Notas
+	- Nº Cuenta de banco
+	- Saldo
+- Saldo
+	- idCliente
+	- idTemporada
+	- TotalKG
+	- Saldo
+	- FechaLiquidación
+- Tipo Aceituna
+	- idTipoAceite
+	- idVariedad
+	- Calibre
+	- TipoAceituna (Texto)
+	- Precio por kg *Importante. Necesitan que al hacer un albarán, se puede meter el precio DESPUÉS*
+	- Gastos
+	- Comisión
+	- Comentario
+- Variedad
+	- idVariedad
+	- Variedad (texto)
+- APTi
+- Parametro
+	- idParámetro
+	- IVA
+	- Puntero Albaran
+	- Puntero Anticipo
+	- Aviso Backup
+	- Periodo Aviso
+	- Backup Last
+	- Unidad
+	- Comision
+	- Retencion IRPF
+	- Tipo impresora

@@ -1,0 +1,1 @@
+Me he dado cuenta de que quizá la BBDD inicial y la estructura no es la correcta, así que he preguntado de nuevo desde cero a chatGPT para que me ayude a rehacer la aplicación.

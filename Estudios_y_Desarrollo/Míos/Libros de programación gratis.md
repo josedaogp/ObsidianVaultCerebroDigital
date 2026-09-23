@@ -1,0 +1,1 @@
+https://github.com/GunterMueller/Books-3/blob/master/Effective%20Java%20%283rd%20Edition%29.pdf

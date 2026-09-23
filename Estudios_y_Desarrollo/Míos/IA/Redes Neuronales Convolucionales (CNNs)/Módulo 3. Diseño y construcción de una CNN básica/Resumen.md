@@ -1,0 +1,4 @@
+- En este módulo, hemos diseñado y construido una **CNN básica** para la clasificación de imágenes utilizando **Keras**.
+- Aprendimos sobre las **capas** principales de una CNN, como la **convolución**, **pooling**, y **capas densas**.
+- Implementamos técnicas de **regularización** como **Dropout** y **Data Augmentation** para evitar el sobreajuste.
+- Evaluamos el rendimiento del modelo utilizando métricas como **accuracy**, **precision**, **recall**, y **f1-score**.

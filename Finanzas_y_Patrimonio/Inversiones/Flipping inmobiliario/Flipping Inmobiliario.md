@@ -1,0 +1,1 @@
+Es un método de inversión en el que primero se compra un inmueble o un terreno, se reforma o construye para después venderlo. La idea es comprar muy barato para sacarle muchísima [[rentabilidad]] (más del 20% bruta). 

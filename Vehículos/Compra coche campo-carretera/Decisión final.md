@@ -1,0 +1,1 @@
+Finalmente fue un Citroen C4 Aircross, 1.6ehdi de 115 EXCLUSIVE PLUS cv, con 201000km matricula 1738JPW. Antes de la entrega, se hizo cambio de correa de distribución, filtros y aceite. El precio total final fueron 8000 euros. Se compró en Automoviles Zambrano , con nombre Pablo García Zambrano, el día 13 de diciembre de 2025.

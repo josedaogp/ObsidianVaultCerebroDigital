@@ -1,0 +1,1 @@
+Los directos serán los jueves a las 7pm, aunque la hora puede cambiar. Ese mismo día se liberarán los siguientes módulos.

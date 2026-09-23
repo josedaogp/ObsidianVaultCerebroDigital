@@ -1,0 +1,46 @@
+## I. Módulo de Autenticación y Perfil (US-AUTH)
+
+|**Título**|**Descripción**|**Criterios de Aceptación (CdA)**|**Dependencias**|
+|---|---|---|---|
+|**US-AUTH-1: Registro de Nuevo Usuario**|Como **usuario nuevo**, quiero poder **registrarme** en la aplicación con mi email y contraseña, para acceder a todas las funcionalidades.|1. El usuario puede introducir email y contraseña. 2. La contraseña debe cumplir un mínimo de seguridad (ej: 8 caracteres, mayúscula, número). 3. El registro exitoso me lleva a la pantalla principal.|**Backend:** Endpoint de registro.|
+|**US-AUTH-2: Inicio de Sesión (Login)**|Como **usuario registrado**, quiero poder **iniciar sesión** con mi email/contraseña, para acceder a mi perfil.|1. El usuario puede introducir email y contraseña. 2. Hay un botón claro para "Mostrar contraseña". 3. Hay un enlace para "Recuperar Contraseña". 4. El login exitoso me lleva a la pantalla principal.|**Backend:** Endpoint de Login.|
+|**US-AUTH-3: Login con Google**|Como **usuario**, quiero poder **iniciar sesión o registrarme usando mi cuenta de Google**, para ahorrar tiempo en el registro.|1. Hay un botón visible de "Continuar con Google". 2. Se integra la librería de autenticación de Google. 3. El login exitoso con Google me lleva a la pantalla principal.|**Backend:** Configuración de Google Auth.|
+|**US-AUTH-4: Recuperación de Contraseña**|Como **usuario**, quiero poder **recuperar mi contraseña** si la he olvidado, para volver a acceder a mi cuenta.|1. Al pulsar "Olvidé mi contraseña", se me pide el email. 2. Se muestra un mensaje de que se ha enviado un enlace/código al email. 3. El email contiene un enlace válido para restablecer la contraseña.|**Backend:** Endpoint de recuperación de contraseña y servicio de email.|
+
+---
+
+## II. Módulo de Tienda y Exploración (US-SHOP) 🛍️
+
+Este módulo concentra la búsqueda y visualización de monumentos.
+
+|**Título**|**Descripción**|**Criterios de Aceptación (CdA)**|**Dependencias**|
+|---|---|---|---|
+|**US-SHOP-1: Navegación y Estructura de la Tienda**|Como **usuario**, quiero poder **acceder a la sección "Tienda"** desde el menú, y ver su estructura principal, para empezar a buscar.|1. Hay una opción de "Tienda" en el menú principal. 2. La pantalla se carga con el **Selector de Ciudad** en la parte superior. 3. Debajo, se muestra el **Buscador de Museos**.|**US-AUTH-2** (sesión iniciada)|
+|**US-SHOP-2: Selección de Ciudad**|Como **usuario**, quiero poder **seleccionar una ciudad** en la pantalla "Tienda", para acotar geográficamente los resultados mostrados.|1. El selector de ciudad es visible y muestra la ciudad actual. 2. Al pulsarlo, se abre una lista o _dropdown_ con las ciudades disponibles. 3. Al seleccionar una ciudad, todos los listados se filtran automáticamente.|**Backend:** Endpoint para obtener lista de ciudades y endpoint de búsqueda/filtrado.|
+|**US-SHOP-3: Buscador de Museos Funcional**|Como **usuario**, quiero poder **buscar museos o monumentos por nombre** en la Tienda, para encontrar rápidamente un sitio específico.|1. Hay una barra de búsqueda funcional. 2. Al escribir, el **carrusel de recomendados** y la **rejilla de todos los museos** se filtran en tiempo real por el término de búsqueda. 3. El buscador debe ser sensible al filtro de ciudad activo.|**US-SHOP-2**, **Backend:** Lógica de búsqueda optimizada.|
+|**US-SHOP-4: Filtros Rápidos de Contenido**|Como **usuario**, quiero tener **botones de filtros rápidos** (ej. por categoría o tipo) en la Tienda, para refinar la búsqueda sin escribir.|1. Debajo del buscador, hay una fila de _chips_ o botones con filtros (ej: "Arte", "Historia", "Arquitectura"). 2. Al pulsar un filtro, todos los resultados de la pantalla se actualizan para mostrar solo los que coinciden con la categoría. 3. Se permite la selección múltiple de filtros.|**US-SHOP-3**|
+|**US-SHOP-5: Carrusel de Recomendados**|Como **usuario**, quiero ver un **carrusel horizontal de "Museos Recomendados"**, para descubrir sugerencias curadas por la aplicación.|1. El carrusel se muestra debajo de los filtros. 2. El carrusel es deslizable y muestra al menos 3-4 ítems visibles al mismo tiempo. 3. Los ítems del carrusel respetan los filtros de **Ciudad** y **Buscador**. 4. La selección de un museo me lleva a la pantalla de audioguía (US-IA-1).|**Backend:** Endpoint que devuelve museos/monumentos marcados como "Recomendados".|
+|**US-SHOP-6: Visualización en Rejilla de Museos**|Como **usuario**, quiero ver **todos los museos/monumentos en una rejilla (Grid View)**, para una exploración completa y visual.|1. La rejilla se muestra debajo del carrusel en **filas de dos columnas**. 2. Cada ítem muestra claramente: **Portada/Imagen**, **Nombre** y **Localización** (ej: Madrid - Barrio de las Letras). 3. La rejilla respeta todos los filtros activos (Ciudad, Buscador, Filtros Rápidos). 4. Al seleccionar un monumento, navego a la pantalla de audioguía (US-IA-1).|**Backend:** Endpoint para obtener lista completa de museos con metadatos.|
+
+---
+
+## III. Módulo de Interacción con IA (US-IA) 🗣️
+
+Este módulo describe la funcionalidad de la audioguía inteligente en sí misma.
+
+|**Título**|**Descripción**|**Criterios de Aceptación (CdA)**|**Dependencias**|
+|---|---|---|---|
+|**US-IA-1: Pantalla de Actividad y Chat**|Como **usuario**, quiero ver una **pantalla dedicada para el monumento seleccionado** con la interfaz de chat de la IA.|1. Se navega a esta pantalla al seleccionar un monumento de la Tienda (US-SHOP-5/6). 2. La pantalla muestra el nombre del monumento/sitio y una imagen principal. 3. La interfaz de chat es visible y funcional.|**US-SHOP-5/6**, **Backend:** Servicio de IA.|
+|**US-IA-2: Narración Inicial de la IA (TTS)**|Como **usuario**, quiero que la **IA comience a contarme curiosidades** sobre el monumento al entrar.|1. Al cargar la pantalla, la IA envía su primer mensaje de forma automática (texto). 2. El texto del mensaje se reproduce automáticamente como **audio** (Text-to-Speech). 3. El texto reproducido se destaca visualmente en el chat.|**Backend:** Servicio de IA con capacidad de **Text-to-Speech (TTS)**.|
+|**US-IA-3: Interacción de Texto con la IA**|Como **usuario**, quiero poder **interrumpir a la IA escribiendo una pregunta** en el chat, para resolver dudas específicas.|1. Hay un campo de entrada de texto claro. 2. Al enviar el mensaje, la reproducción de audio de la IA se pausa/detiene. 3. La IA responde con un mensaje de texto (y su respectivo audio TTS, US-IA-2). 4. La IA es capaz de **mantener el contexto** de la conversación.|**Backend:** Integración con un **Modelo de Lenguaje Grande (LLM)**.|
+|**US-IA-4: Interacción de Voz con la IA**|Como **usuario**, quiero poder **interrumpir a la IA grabando un audio/voz**, para interactuar de forma natural.|1. Hay un **botón para grabar audio** que se mantiene pulsado durante la grabación. 2. El audio se procesa (Speech-to-Text) y se convierte en un mensaje de usuario. 3. La IA responde a la pregunta de voz (texto y audio TTS).|**Backend:** Servicio de **Speech-to-Text (STT)** y el servicio de IA.|
+
+---
+
+## IV. Módulo de Configuración (US-CONF)
+
+| **Título**                         | **Descripción**                                                                                                                              | **Criterios de Aceptación (CdA)**                                                                                                                                                       | **Dependencias**                                              |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
+| **US-CONF-1: Temas Claro/Oscuro**  | Como **usuario**, quiero poder **cambiar el tema de la aplicación** a modo claro u oscuro, para adaptar la interfaz a mis preferencias.      | 1. Hay una opción de "Tema" en la configuración. 2. Al seleccionar, el tema de toda la aplicación cambia (fondo, texto, barras). 3. El tema seleccionado es persistente entre sesiones. | N/A (Implementación en Flutter)                               |
+| **US-CONF-2: Ver y Editar Perfil** | Como **usuario registrado**, quiero poder **ver y actualizar mi información de perfil** (nombre, avatar) en un apartado de la configuración. | 1. Hay una sección de "Perfil" en la configuración. 2. Puedo editar mi nombre y cambiar mi avatar. 3. Los cambios se guardan y son persistentes.                                        | **Backend:** Endpoint de obtención y actualización de perfil. |
+| **US-CONF-3: Cierre de Sesión**    | Como **usuario**, quiero poder **cerrar mi sesión** desde la configuración, para proteger mi cuenta.                                         | 1. Hay un botón claro de "Cerrar Sesión" en la configuración. 2. Al pulsarlo, vuelvo a la pantalla de Login/Registro. 3. La sesión se invalida en el backend.                           | **US-AUTH-2**                                                 |

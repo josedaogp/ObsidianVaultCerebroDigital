@@ -1,0 +1,1 @@
+gitingest.com --> Para coger un repo de github y resumirlo en un prompt para dárselo a un llm y preguntarle sobre el

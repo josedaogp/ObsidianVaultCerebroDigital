@@ -1,0 +1,1 @@
+- Primero pensé en hacerlo con SPotify, investigué y resultó que no podía hacerlo porque no devolvía el audio ni la transcripción. Luego le di más vueltas y pensé en hacerlo con youtube.

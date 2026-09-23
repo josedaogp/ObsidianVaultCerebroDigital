@@ -1,0 +1,9 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "rueda_acordes": "text",
+    "Fecha_nota": "datetime"
+  }
+}

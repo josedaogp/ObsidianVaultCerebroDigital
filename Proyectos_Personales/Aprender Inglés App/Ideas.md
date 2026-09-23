@@ -1,0 +1,5 @@
+- Que cuando el usuario termine una sesión de podcast, luego pueda expresar su opinión hablando en inglés directamente con un agente de chatgpt, pero hablado, no escrito. Aunque también se puede meter escrito para el writing.
+- Que se pueda ver la evolución y las palabras aprendidas y en qué podcast se aprendió
+- El usuario podrá seleccionar los podcast  por temática y por supuesto por nivel. Al principio será dificil definir el nivel del usuario, aunque se puede hacer que el usuario introduzca en una inicial survey podcast que ya haya escuchado y que diga cuánto ha entendido.
+- Que después de cada sesión de podcast, el usuario tenga que dar un resumen para que la ia juzgue si se ha enterado de algo o no.
+- Crear sección de vocabulario y gramática por nivel y por cada podcast, creando así lecciones diarias/por cada sesión.

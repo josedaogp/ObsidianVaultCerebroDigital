@@ -1,0 +1,3 @@
+## Descripción del Video
+
+En este video se introduce y se explica detalladamente el uso de Framer, un software para la creación de páginas web que incorpora inteligencia artificial. El ponente destaca que Framer permite diseñar y desarrollar páginas web sin necesidad de escribir código, facilitando un proceso más cómodo y rápido. Se menciona la capacidad de Framer para diseñar y crear sitios web de manera eficiente, aprovechando las ventajas de la inteligencia artificial integrada en la herramienta.

@@ -1,0 +1,4 @@
+- Idea 1(y el enlace a la nota de la idea)
+- Idea 2 (y el enlace...)
+- [[Encuentra tu piso]] Aplicación, SAAS que en base a unos parámetros de búsqueda, te encuentre el mejor piso adecuados a esos parámetros. Por ejemplo, Huelva o Sevilla, para estudiantes, por menos de 100k, con tres habitaciones, con lugares cerca etc. Sustituiríamos el servicio que da Arkaitz Lozano, que te busca el mejor piso que tú le digas.
+- [[Gestores de importaciones]] Se trata de aprovechar nuestros conocimientos en el proceso de creación e importación de Cannon Hookah. Nuestro público objetivo serán jóvenes que quieran crear su propia marca. Le asesoraremos y nos encargaremos de hablar con los chinos, del diseño del producto, el transporte y todo.

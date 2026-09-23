@@ -1,0 +1,1 @@
+Ahora quiero crear contenido para LinkedIn, Instagram y X para hacerme viral, basado en este curso. Por ejemplo, un buen titular sería: "Así es como consigo detectar un cancer de mama con una SVM que hice en 30 min" O algo así. Dame al menos 10 ideas de posts para hacerme viral, y dime de qué módulo debo sacar la información

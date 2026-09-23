@@ -1,0 +1,2 @@
+- [ ] Test de la app: https://www.photoheart.app/dashboard
+- [ ] Revisión del código y supabase

@@ -1,0 +1,3 @@
+- En este módulo, hemos explorado redes neuronales convolucionales profundas, que tienen muchas más capas que una CNN básica, lo que les permite aprender representaciones jerárquicas de las imágenes.
+- También hemos aprendido sobre **Transfer Learning**, una técnica útil para aprovechar modelos preentrenados y ajustar sus capacidades a nuevas tareas con menos datos y recursos computacionales.
+- Además, hemos cubierto cómo las CNNs se pueden aplicar a tareas más complejas como la **segmentación semántica** y la **detección de objetos**.

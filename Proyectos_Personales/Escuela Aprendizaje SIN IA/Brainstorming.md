@@ -1,0 +1,32 @@
+- La idea es crear un portal de cursos y aprendizajes tipo Udemy pero que el contenido sea 100% creado por mi y los profesores que yo verifique que cuadran con mi metodología.
+- El pago podría ser a gusto del cliente según lo que considere que ha aprendido. Primero se le coge la tarjeta para cargarle un precio mínimo simbólico y luego cuando acaba el curso, el cliente puede decidir cuánto quiere pagar.
+- Basado e inspirado en Fernando Herrera.
+- Se diferenciaría de las otras en que tienen que compartir mi filosofía y punto de vista de la vida:
+	- No perder el tiempo, ir directo al grano (como Fernando Herrera).
+	- Personas que se sientan consumidas por la IA y necesiten aprender desde la base para así poder luego utilizar la IA como herramienta de mejora y no como sustitución del trabajo propio.
+	- Se han dado cuenta de la importancia de aprender algo desde sus cimientos.
+	- No les gusta que les vendan humo ni la moto. No haré campañas de marketing agresivas. Se trata de ir a todos los puntos de dolor que tengo yo.
+- Podría empezar dando cursos de soft skills.
+- Hacer videos de youtube aparte del marketing (que no te obligue a verlos para comprar ni nada de eso, para no perder el tiempo), donde explique en cada vídeo en píldoras de entre 1 a 5 minutos cuál es mi filosofía, para así filtrar y conectar con mi verdadero público objetivo.
+- "Mi público objetivo podría ser todo el mundo, pero en realidad son personas que puedan pagar por su propio tiempo y por el mío, que cumplan con mis principios".
+- ¿Sería buena idea hacer una entrevista para acceder al contenido?
+- Que sea primera premisa que nada está hecho con IA (excepto cosas imperceptibles por el usuario, como la edición etc).
+- Poner en la descripción de cada vídeo, las horas totales del curso/aprendizaje (como Udemy) **y también las que me ha llevado hacer el vídeo**.
+- En fases posteriores, podría contratar a profesores que hayan pasado mi filtro. Todos los cursos serán supervisados por mi, para tener claro que coinciden con mis principios, que son buenos y que el cliente no perderá el tiempo.
+- Especificar casos de uso muy concretos (como a mi me gusta) que se aprenderán en cada curso, como apps que se desarrollarán en concreto y con qué stack tecnológico. De este modo, si alguien solo quiere ver una parte del contenido, podrá hacerlo. Para ello, podría poner para cada parte del curso, de qué otros módulos depende. Podría hacerlo en modo grafo, para que si alguien le interesa solo una parte del curso, pueda ver solo lo que le interesa rápidamente sin tener que pararse a buscar qué info está en cada vídeo.
+- Método de suscripción (a parte de los vídeos) en el que realmente solo se pague si el cliente considera que debe pagar --> Enviar correos cada fin de mes para recordarle al usuario si quiere pagar, qué contenido ha visto, cuántas horas ha visto, cuántas horas del contenido que ha visto y cuántas horas de mi tiempo se han empleado para crear las horas que el cliente ha consumido, etc. La idea es realmente hacerle ver al cliente que está pagando por sí mismo (y a mi, claro), no que está pagando una suscripción mensual por pagarla.
+- La idea de marketing es el anti-marketing, el anti-corriente. Si el todo el mundo vende IA, yo voy a vender NO IA.
+- Podría empezar con contenido de softskills y programación, pero será extendible a todos los ámbitos de la vida.
+- Poner un chat con IA en mi web en el que el cliente ponga qué busca en la web y se le lleve concretamente a la página e información que busca.
+- Por qué esta idea? Porque combino varias cosas en las que he llegado a la conclusión que soy bueno y me gusta: 
+	- Soft Skills
+	- Enseñanza
+	- Soy un anti-corrientes. Si está de moda la IA, ODIO ir a la corriente y a la moda.
+	- Mis propias conclusiones de vida. Llevo un tiempo sin tener claro qué quiero ser ni muchas cosas, y las pocas que tengo claras tengo que aprovecharlas.
+	- Si yo soy así de "especial", tiene que haber más gente que sea como yo.
+
+
+
+- Podría grabar en la ofi de Emilio.
+- Posbiles nombres:
+	- LaRaizDeTodo (LRDT): Simboliza la importancia de tener una motivación intrínseca, que no hay atajos (porque si intentas construir una casa por el tejado, no llegarás muy lejos), y porque aprender la base de algo es crucial para todo. Si no entiendes qué estás haciendo, no estás haciendo nada.

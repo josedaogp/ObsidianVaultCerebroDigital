@@ -1,0 +1,27 @@
+- [x] 1. Parlamento de Budapest ✅ 2025-03-27
+- [x] 2. Zapatos en el Danubio, uno de los lugares que visitar en Budapest ✅ 2025-03-27
+- [x] 3. Puente de las Cadenas ✅ 2025-03-27
+- [ ] 4. Paseo por Duna-korzó
+- [ ] 5. Puente de la Libertad
+- [ ] 6. Balneario Gellert
+- [x] 7. Monte Gellert ✅ 2025-03-27
+- [ ] 8. Mercado Central
+- [ ] 9. Váci Utca, la calle más famosa que ver en Budapest
+- [x] 10. Plaza Vorosmarty ✅ 2025-03-27
+- [x] 11. Paseo en barco por el Danubio, otra de las cosas que hacer en Budapest ✅ 2025-03-27
+- [x] 12. Gran Noria de Budapest ✅ 2025-03-27
+- [ ] 13. Barrio Judío de Budapest
+- [ ] 14. Ruins bars, los mejores que visitar en Budapest
+- [ ] 15. New York Café
+- [x] 16. Basílica de San Esteban ✅ 2025-03-27
+- [ ] 17. Ópera de Budapest
+- [ ] 18. Avenida Andrássy
+- [ ] 19. Plaza de los Héroes
+- [ ] 20. Parque Varosliget, otro de los lugares que ver en Budapest
+- [x] 21. Balneario Széchenyi ✅ 2025-03-31
+- [x] 22. Castillo de Buda ✅ 2025-03-27
+- [x] 23. Bastión de los Pescadores ✅ 2025-03-27
+- [x] 24. Iglesia de Matías ✅ 2025-03-27
+- [x] 25. Museos que ver en Budapest ✅ 2025-03-27
+- [x] 26. Isla Margarita ✅ 2025-03-27
+- [ ] 27. Memento Park

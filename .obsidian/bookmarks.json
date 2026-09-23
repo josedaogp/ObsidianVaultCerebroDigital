@@ -1,0 +1,36 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1716275058165,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1716275045987,
+          "path": "Estudios_y_Desarrollo/Flutter/Formación/Formación flutter.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1716275045987,
+          "path": "Estudios_y_Desarrollo/Flutter/Formación/Flutter desde cero - Guía completa con arquitectura limpia.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1716275045987,
+          "path": "Estudios_y_Desarrollo/Python/Notas generales Python y FastAPI.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1716275045987,
+          "path": "Proyectos_Personales/FinanzasJoseda/Pasos seguidos app flutter/Pasos seguidos app flutter.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1716275045987,
+          "path": "Proyectos_Personales/FinanzasJoseda/Pasos seguidos app flutter/01 Pasos seguidos app flutter.md"
+        }
+      ],
+      "title": "Flutter"
+    }
+  ]
+}

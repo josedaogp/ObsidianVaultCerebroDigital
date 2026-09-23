@@ -1,0 +1,4 @@
+- No tengo ni idea de programar y soy tech lead
+- Odio las generalizaciones y las modas (hablar sobre el boom de posts cuando por ejemplo deepseek, o la ia en genral, o cualquier tema) Quizá ese sea un problema, que intento salirme tanto del camino marcado que no me doy cuenta de que realmente funciona.
+- Inconformidad con lo ya establecido: Por eso me hago mis propias apps para todo (ej app finanzas)
+- Por qué la empatía me ha hecho tan buen profesional
