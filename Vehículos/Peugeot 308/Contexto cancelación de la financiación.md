@@ -1,6 +1,6 @@
 Okay, te cuento mi situación a ver tú qué harías. Actúa como experto asesor financiero dando los mejores consejos. Ten tu propio criterio y se totalmente realista y sincero con tus respuestas. Además, argumenta tus respuestas basado en datos siempre que puedas.
 
-- El préstamo es por un peugeot 308 de enero del 2022, con motor 1.2 puretech de 120 cv, versión allure pack. Me costó 20500€, de los cuales 10000 ya pagué, y el resto es de este préstamo.
+- El préstamo es por un peugeot 308 de enero del 2022, con motor 1.2 puretech de 130 cv, versión allure pack. Me costó 20500€, de los cuales 10000 ya pagué, y el resto es de este préstamo.
 
 - Tengo unos 50000€ (de ellos, 11k€ son inversión y no los puedo tocar)
 
