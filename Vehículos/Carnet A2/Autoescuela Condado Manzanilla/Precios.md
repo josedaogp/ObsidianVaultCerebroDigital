@@ -1,0 +1,5 @@
+- teórica 280 + tests (examen incluido). Online sin problema
+- pista y calle 28 euros pista y 38 calle. Practicas en Huelva siempre.
+- 45 euros cada examen de circulacion
+- pista 14 días, teórico 10 días y circulación retrasos 2 meses.
+- honda sx vigor trail. triumph speed 400.
