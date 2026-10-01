@@ -17,3 +17,6 @@ con 600mb 10e menos
 
 ---
 53e fibra600mb+tele+ilimitada linea aparte 5 euros más.
+
+
+solo fibra 600mb 33 euros
