@@ -20,3 +20,14 @@ con 600mb 10e menos
 
 
 solo fibra 600mb 33 euros
+
+---
+Vodafone
+moviles ilimitados
+1gb fibra wifi 6 
+telefono fijo si lo quiero 
+tv decodificador 4k + 4 pantallas virtuales + amazon prime
+28 euros.
+con netflix 32e
+12 meses permanencia (300 e de instalacion que no se pagan)
+6 euros lineas adicionales
