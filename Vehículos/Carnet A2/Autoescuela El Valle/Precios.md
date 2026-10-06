@@ -8,4 +8,10 @@ Parecía muy simpático
 - circuito en huelva, moto nuevecita de hace no mas de 5 años
 - plazos contenidos incluso en la calle
 - pago en efectivo/en la autoescuela.
-dni carnet conducir con
+
+## Necesito para apuntarme:
+- dni 
+- carnet conducir
+- foto
+- 150 euros pago inicial
+abren de 5 a 8 por la tarde
